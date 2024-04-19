@@ -1,4 +1,5 @@
 # Muse
+![img](https://github.com/alexandrebarachant/muse-lsl/blob/master/blinks.png?raw=true)
 
 ## Getting Started
 
