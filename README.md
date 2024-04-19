@@ -18,6 +18,9 @@ Install Muse LSL with pip
 
 ```
     pip install muselsl
+    # for Mac
+    brew install labstreaminglayer/tap/lsl
+    # for Windows
     conda install -c conda-forge liblsl
 ```
 ### Setting up a stream
