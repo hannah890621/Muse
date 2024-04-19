@@ -18,18 +18,19 @@ Install Muse LSL with pip
 
 ```
     pip install muselsl
+    conda install -c conda-forge liblsl
 ```
 ### Setting up a stream
 To print a list of available muses:
 
 ```
-    $ muselsl list
+    muselsl list
 ```
 
 To connect to a specific Muse you can pass the name of the device as an argument. Device names can be found on the inside of the left earpiece (e.g. Muse-41D2):
 
 ```
-    $ muselsl stream --name YOUR_DEVICE_NAME
+    muselsl stream --name YOUR_DEVICE_NAME
 ```
 
 ### Working with Streaming Data
@@ -40,17 +41,17 @@ These following commands should be run in another terminal or second process
 
 To view data:
 ```
-    $ muselsl view
+    muselsl view
 ```
 
 If the visualization freezes or is laggy, you can also try the alternate version 2 of the viewer. 
 ```
-    $ muselsl view --version 2
+    muselsl view --version 2
 ```
 
 To record EEG data into a CSV:
 ```
-    $ muselsl record --duration 60  
+    muselsl record --duration 60  
 ```
 
 ## Reference 
